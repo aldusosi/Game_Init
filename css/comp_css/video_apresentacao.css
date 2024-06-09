@@ -1,0 +1,22 @@
+.background-gray
+{
+    width:100%;
+    
+}
+.container_video
+{
+    width:100%; 
+    max-width:1080px; 
+    height:270px; 
+    margin:0 auto;
+    background-image: url('../../images/fundo-video.png');
+}
+
+@media (min-width: 576px)
+{
+    .container_video
+    {
+        width:860px;
+        height: 550px;
+    }
+}

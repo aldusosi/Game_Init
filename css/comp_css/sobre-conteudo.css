@@ -1,0 +1,11 @@
+.card_beneficio
+{
+    width:220px;
+}
+@media (max-width:375px)
+{
+    .card_beneficio
+    {
+        width:100%;
+    }
+}
