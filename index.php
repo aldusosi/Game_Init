@@ -16,11 +16,14 @@
 
 		
 	</head>
-	<body >
+	<body class="bg-light">
 
 		<?php 
 			// NAVBAR_COMP
 			require_once('./components/navbar_comp.php');
+
+			// DIV_FANTASMA
+			echo '<div style="height:70px;"></div>';
 
 			//	HEADER_COMP	
 			require_once('./components/big_logo_comp.php');
