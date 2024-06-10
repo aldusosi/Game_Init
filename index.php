@@ -19,8 +19,11 @@
 	<body >
 
 		<?php 
+			// NAVBAR_COMP
+			require_once('./components/navbar_comp.php');
+
 			//	HEADER_COMP	
-			require_once('./components/header_comp.php');
+			require_once('./components/big_logo_comp.php');
 
 			//	VIDEO_APRESENTACAO_COMP
 			require_once('./components/video_apresentacao_comp.php');
