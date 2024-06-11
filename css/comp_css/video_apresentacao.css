@@ -1,0 +1,27 @@
+.background-gray
+{
+    width:100%;
+}
+.container_video
+{
+    width:100%; 
+    max-width:500px; 
+    height:auto; 
+    margin:0 auto;
+    border:1px solid red;
+}
+
+video
+{
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 576px)
+{
+    .container_video
+    {
+        width:860px;
+        height: auto;
+    }
+}
