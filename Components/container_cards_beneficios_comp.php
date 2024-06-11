@@ -4,63 +4,40 @@
 
     <div class="container mt-3 p-3 d-flex flex-wrap justify-content-center" >
 
-        <div class="card_beneficio card m-3 p-3 d-flex flex-columm justify-content-between"  ">
-            <div class="text-center pb-3">
-                <img src="./images/make-a-game-logo.png" style="width:80px; height:80px;">
-            </div>
-            <h4 class="text-center">Mais de X aulas</h4>
-        </div>
+        <?php require_once 'card_beneficio.php';
 
-        <div class="card_beneficio card m-3 p-3 d-flex flex-columm justify-content-between" ">
-            <div class="text-center pb-3">
-                <img src="./images/make-a-game-logo.png" style="width:80px; height:80px;">
-            </div>
-            <h4 class="text-center">Crie mais de X jogos</h4>
-        </div>
+            // CARD_1
+            $card = new CardBeneficio('Mais de X aulas', './images/make-a-game-logo.png');
+            echo $card -> showContent();
 
-        <div class="card_beneficio card m-3 p-3 d-flex flex-columm justify-content-between" ">
-            <div class="text-center pb-3">
-                <img src="./images/make-a-game-logo.png" style="width:80px; height:80px;">
-            </div>
-            <h4 class="text-center">Mais de X horas</h4>
-        </div>
+            // CARD_2
+            $card = new CardBeneficio('Crie mais de X jogos', './images/make-a-game-logo.png');
+            echo $card -> showContent();
 
-        <div class="card_beneficio card m-3 p-3 d-flex flex-columm justify-content-between" ">
-            <div class="text-center pb-3">
-                <img src="./images/make-a-game-logo.png" style="width:80px; height:80px;">
-            </div>
-            <h4 class="text-center">Suporte do preofessor</h4>
-        </div>
+            // CARD_3
+            $card = new CardBeneficio('Mais de X horas', './images/make-a-game-logo.png');
+            echo $card -> showContent();
 
-        <div class="card_beneficio card m-3 p-3 d-flex flex-columm justify-content-between" ">
-            <div class="text-center pb-3">
-                <img src="./images/make-a-game-logo.png" style="width:80px; height:80px;">
-            </div>
-            <h4 class="text-center">Acesso vitalício</h4>
-        </div>
+            // CARD_4
+            $card = new CardBeneficio('Suporte do preofessor', './images/make-a-game-logo.png');
+            echo $card -> showContent();
 
-        <div class="card_beneficio card m-3 p-3 d-flex flex-columm justify-content-between" ">
-            <div class="text-center pb-3">
-                <img src="./images/make-a-game-logo.png" style="width:80px; height:80px;">
-            </div>
-            <h4 class="text-center">Do zero ao avançado</h4>
-        </div>
+            // CARD_5
+            $card = new CardBeneficio('Acesso vitalício', './images/make-a-game-logo.png');
+            echo $card -> showContent();
 
-        <div class="card_beneficio card m-3 p-3 d-flex flex-columm justify-content-between" ">
-            <div class="text-center pb-3">
-                <img src="./images/make-a-game-logo.png" style="width:80px; height:80px;">
-            </div>
-            <h4 class="text-center">Estude onde e quando quiser</h4>
-        </div>
+            // CARD_6
+            $card = new CardBeneficio('Do zero ao avançado', './images/make-a-game-logo.png');
+            echo $card -> showContent();
 
-        <div class="card_beneficio card m-3 p-3 d-flex flex-columm justify-content-between" ">
-            <div class="text-center pb-3">
-                <img src="./images/make-a-game-logo.png" style="width:80px; height:80px;">
-            </div>
-            <h4 class="text-center">Garantia de 30 dias</h4>
-        </div>
+            // CARD_7
+            $card = new CardBeneficio('Estude quando e onde quiser', './images/make-a-game-logo.png');
+            echo $card -> showContent();
 
-        
+            // CARD_8
+            $card = new CardBeneficio('Garantia de 30 dias', './images/make-a-game-logo.png');
+            echo $card -> showContent();
+        ?>
 
     </div><!--Row-->
 </section><!--cards-sobre-conteudo-->
