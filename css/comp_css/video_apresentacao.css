@@ -1,14 +1,9 @@
 .background-gray
 {
-    width:100%;
-}
-.container_video
-{
-    width:100%; 
-    max-width:500px; 
-    height:auto; 
+    width:80%;
+    max-width:820px;
     margin:0 auto;
-    border:1px solid red;
+    background-image: url('../../images/fundo-video.png');
 }
 
 video
